@@ -17,6 +17,4 @@ function getBillTotal(amount) {
 // Console log the results of the functions
 console.log("The tip amount is $" + calculateTip(totalBillAmount));
 
-console.log(
-  `The total bill amount (including tip) is $${getBillTotal(totalBillAmount)}`
-);
+console.log("Total bill amount is $" + getBillTotal(totalBillAmount));
